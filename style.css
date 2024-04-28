@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    position: relative;
+}
+
+h2{
+    margin: 15px 0 15px 50%;
+}
+
+.container{
+    background-color: grey;
+    margin: 10px ;
+    padding: 10px;
+    position: relative;
+    border: 2px solid black;
+    width: 30%;
+    float: left;
+}
+
+.head{
+    margin-top: -10px;
+    margin-right: -10px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 5px 30px;
+    text-align: center;
+    float: right;
+}
+
+.head.one{
+    background-color: crimson;
+}
+
+.head.two{
+    background-color: indigo;
+}
+
+.head.three{
+    background-color: darkgoldenrod;
+}
+
+.content{
+    clear: right;
+}
+
+@media (min-width: 768px ) and (max-width:991px){
+    .container{
+        width: 45%;
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+        width: 90%;
+    }
+}
