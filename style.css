@@ -10,12 +10,13 @@
 }
 
 .main{
-    position: relative;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .container{
     background-color: grey;
-    margin: 10px ;
+    /* margin: 10px ; */
     padding: 10px;
     position: relative;
     border: 2px solid black;
