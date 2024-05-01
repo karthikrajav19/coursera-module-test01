@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
 .main{
     position: relative;
 }
